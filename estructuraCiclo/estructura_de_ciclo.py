@@ -47,3 +47,25 @@ while condicion==True:
     else:
         print("eres un gil")
         intentos+=1
+
+##ejercicios de ejemplos 1
+contador=0
+while contador<5:
+    print("hola",contador)
+    contador+=1
+
+
+## ejercicios de ejemplos 2
+for numero in range(1,11):
+    print(numero)
+
+
+## ejercicios 3
+condicion=True
+eval=1
+while condicion==True
+   if eval==5:
+    print("estamos en 5")
+    condicion=False
+   else:
+    eval+=1
