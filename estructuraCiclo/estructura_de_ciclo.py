@@ -26,46 +26,47 @@
 ## si es la edad correcta me mostraba un mensaje  
 ## y se termina la ejecucion
 
-condiciones== True
-while condiciones== True:
-    numero=int(input("ingrese un numero"))
-    if numero==20:
-        print("correcto")
-        condiciones=False
-    else:
-        print("incorrecto")
+# condiciones== True
+# while condiciones== True:
+#     numero=int(input("ingrese un numero"))
+#     if numero==20:
+#         print("correcto")
+#         condiciones=False
+#     else:
+#         print("incorrecto")
 
-password="77233270"
-condicion=True
-intesntos=1
-while condicion==True:
-    print("este es tu",intentos,"intentos")
-    newPassword=input("ingresa el password correcto:")
-    ifnewPassword==password:
-        print("bienvenido al sistema joven")
-        condicion=False
-    else:
-        print("eres un gil")
-        intentos+=1
+# password="77233270"
+# condicion=True
+# intesntos=1
+# while condicion==True:
+#     print("este es tu",intentos,"intentos")
+#     newPassword=input("ingresa el password correcto:")
+#     ifnewPassword==password:
+#         print("bienvenido al sistema joven")
+#         condicion=False
+#     else:
+#         print("eres un gil")
+#         intentos+=1
 
-##ejercicios de ejemplos 1
-contador=0
-while contador<5:
-    print("hola",contador)
-    contador+=1
+# ##ejercicios de ejemplos 1
+# contador=0
+# while contador<5:
+#     print("hola",contador)
+#     contador+=1
 
 
-## ejercicios de ejemplos 2
-for numero in range(1,11):
-    print(numero)
+# ## ejercicios de ejemplos 2
+# for numero in range(1,11):
+#     print(numero)
 
 
 ## ejercicios 3
 condicion=True
 eval=1
-while condicion==True
+while condicion==True:
    if eval==5:
     print("estamos en 5")
     condicion=False
    else:
+    print(eval)
     eval+=1
