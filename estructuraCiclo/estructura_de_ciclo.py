@@ -61,12 +61,51 @@
 
 
 ## ejercicios 3
-condicion=True
-eval=1
-while condicion==True:
-   if eval==5:
-    print("estamos en 5")
-    condicion=False
-   else:
-    print(eval)
-    eval+=1
+# condicion=True
+# eval=1
+# while condicion==True:
+#    if eval==5:
+#     print("estamos en 5")
+#     condicion=False
+#    else:
+#     print(eval)
+#     eval+=1
+
+
+##ejercicios de ingresar la tabla de multiplicacion y si pongo salir se acabara 
+# eval=True
+# while eval==True:
+#    numero=int(input("ingrese el numero de la tabla desea mostrar:"))
+#    if numero==0:
+#       print("error saliendo del programa..")
+#       break
+#    else:
+#       for numeros in range(1,11):
+#          print(numeros,'*',numero,'=',numeros*numero)
+
+
+## ejercicio a al contrario
+# if numero!=0:
+#    for numeros in range(1,11):
+#       print(numeros,'*',numero,'=',numeros*numero)
+# else:
+#       print("error saliendo del programa..")
+#       break
+
+## mostrar la letra a de la plabra hola 
+# mensaje="hola"
+# print(mensaje[3])
+# for letra in mensaje:
+#    print(letra)
+
+
+
+##mostrar por consola cuantos vocales a tiene el mensaje 
+mensaje="hola llana"
+contador=0
+for letra in mensaje:
+   if letra=="a":
+      contador+=1
+print("en este mensaje tienes:", contador)
+   
+
