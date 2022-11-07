@@ -21,6 +21,6 @@
 
 ## operador foca 
 
-texto="hola mundo"
-print(texto[:4])
+# texto="hola mundo"
+# print(texto[:4])
 

@@ -32,17 +32,17 @@
 ## ingresado es saludos estraeras del mensaje la palabra mundo
 ## si se ingresa otro texto mostraras por defecto el mensaje de error 
 
-mensaje="hola mundo"
-texto=input("ingresa un texto:")
-match texto:
-  case "hola":
-     print(mensaje[:])
-  case "como estas":
-     print (mensaje[:4])
-  case "saludos":
-     print(mensaje[5:])
-  case _:
-     print("error")
+# mensaje="hola mundo"
+# texto=input("ingresa un texto:")
+# match texto:
+#   case "hola":
+#      print(mensaje[:])
+#   case "como estas":
+#      print (mensaje[:4])
+#   case "saludos":
+#      print(mensaje[5:])
+#   case _:
+#      print("error")
 
 
 

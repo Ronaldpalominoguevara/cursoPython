@@ -35,12 +35,60 @@
 #     print(numeros,"*",2,"=",numeros*2)
 
 ##ejercicios de la tabla de multiplicacion 
-numero=int(input("ingrese el numero de la tabla desea mostrar:"))
-for numeros in range(1,11):
-    print(numeros,"*",numero,"=",numeros*numero)
+# numero=int(input("ingrese el numero de la tabla desea mostrar:"))
+# for numeros in range(1,11):
+#     print(numeros,"*",numero,"=",numeros*numero)
 
 
+# numero="10"
+# int(numero)
+## int es el nombre de la funcion () y dentro de 
+# parentesis van los parametros
+# sentence=input("ingrese una oracion:")
+# def countVocals(texto):
+#   vocales=["a","e","i","o","u"]
+#   contadorVocales=0
+#   for letras in texto:
+#    if letras in vocales:
+#       contadorVocales+=1
+#   return contadorVocales
+# print("la cantidad de vocales es:",countVocals("sentence"))
 
+
+##operadorMatematico(numeroUno ,numeroDos,operacion)
+##operadorMatematico(4,5,"suma")
+##por consila la suma de 4+5
+
+# def mensaje(nombre,apellido,accion):
+#   if accion == "saludo":
+#     mensaje="hola",nombre,apellido,"como estas"
+#   elif accion == "despedida":
+#     mensaje="adios",nombre,apellido
+#   return mensaje
+  
+# respuesta=mensaje("ronald","guevara","despedida")
+# print(respuesta)
+
+# ##crear una funcion de operaciones matematicas 
+# def operaciones(numero1,numero2,operacion):
+#   if operacion=="suma":
+#     operaciones="la suma de:" ,numero1, "+" ,numero2, "es" ,numero1+numero2
+#   elif operacion=="resta":
+#     operaciones="la resta de:" ,numero1, "-" ,numero2, "es" ,numero1-numero2
+#   return operaciones
+# print(operaciones(10,2,"resta"))
+
+##vocales convertido en funciones
+
+# sentence=input("enter sentence:")
+# vocales=["a","e","i","o","u"]
+# def countVocal(oracion,vocal):
+#   contador=0
+#   for word in oracion:
+#     if word in vocal:
+#       contador+=1
+#   return contador
+# print(countVocal(sentence,vocales))
 
 
 

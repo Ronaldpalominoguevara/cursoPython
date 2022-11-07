@@ -101,11 +101,49 @@
 
 
 ##mostrar por consola cuantos vocales a tiene el mensaje 
-mensaje="hola llana"
-contador=0
-for letra in mensaje:
-   if letra=="a":
-      contador+=1
-print("en este mensaje tienes:", contador)
-   
+# # mensaje="hola llana"
+# # contador=0
+# # for letra in mensaje:
+# #    if letra=="a":
+# #       contador+=1
+# # print("en este mensaje tienes:", contador)
 
+##Escriba un programa que muestre el eco de todo lo que el usuario 
+##introduzca hasta que el usuario escriba "salir" que terminara 
+# palabra=""
+# while palabra!="salir":
+#     palabra=input("escriba algo:")
+#     print(palabra)
+
+## mas corto el ejercicio
+# contador=10
+# for num in range(0,contador):
+#    palabra=input("ingresa algo:")
+#    if palabra=="salir":
+#     break
+
+## pedir una oracion y mostrar cuantos vocales tiene la oracion
+# oracion=input("ingrese su oracion")
+# vocales=["a","e","i","o","u"]
+# contadorVocales=0
+# for letras in oracion:
+#    if letras in vocales:
+#       contadorVocales+=1
+
+
+## ejercicios de otra manera de mostrar las letras de una oracion
+# sentence=input("ingrese su oracion:")
+# countVocals=0
+# for words in sentence:
+#    match words:
+#       case "a":
+#          countVocals+=1
+#       case "e":
+#          countVocals+=1
+#       case "i":
+#          countVocals+=1
+#       case "o":
+#          countVocals+=1
+#       case "u":
+#          countVocals+=1
+# print("la cantidad de vocales es:", countVocals)
