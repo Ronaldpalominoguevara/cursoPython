@@ -9,7 +9,7 @@
 
 
 
-##Calcukladora
+##Calculadora
 # mensjae = 0
 # while True:
 #     print("""
