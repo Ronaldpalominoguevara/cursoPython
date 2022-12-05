@@ -30,11 +30,11 @@
 # print(list)
 
 ##mostrar las vocales y mostrar una vocal, y luego eliminar una vocal
-vocalesUno=["a","e",]
-vocalesDos=["i","o","u"]
+# vocalesUno=["a","e",]
+# vocalesDos=["i","o","u"]
 
-vocalesUno.extend(vocalesDos)
+# vocalesUno.extend(vocalesDos)
 
-vocalesUno[3]="OO"
-vocalesUno.remove("u")
-print(vocalesUno)
+# vocalesUno[3]="OO"
+# vocalesUno.remove("u")
+# print(vocalesUno)
